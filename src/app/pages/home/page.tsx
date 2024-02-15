@@ -1,5 +1,8 @@
-export default function home(){
+import { Container } from "./style"
+
+export default function home() {
     return (
-        <div>ashddassssss</div>
-    )   
+        <Container>
+        </Container>
+    )
 }
