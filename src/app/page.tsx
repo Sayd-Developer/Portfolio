@@ -1,18 +1,14 @@
 'use client'
 
-import { Container } from "./style"
-import Navbar from "../app/components/navbar"
-import { GlobalStyles } from "./styles/GlobalStyles"
+import { AllContainer } from "./style"
+
 import { StyleSheetManager } from 'styled-components';
 
 
-export default function page() {
+export default function home() {
     return (
-        <Container>
-            <StyleSheetManager>
-                <GlobalStyles />
-                <Navbar />
-            </StyleSheetManager>
-        </Container>
+        <AllContainer>
+            Home
+        </AllContainer>
     )
 }

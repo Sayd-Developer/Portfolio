@@ -4,9 +4,9 @@ import Link from "next/link";
 export const Navbar = styled.nav`
     display: flex;
     flex-direction: row;
-    /* background: #000000; */
+    background: #000000;
     width: 100%;
-    height: 10%;
+    height: 10vh;
     overflow: hidden;
     justify-content: space-between;
 

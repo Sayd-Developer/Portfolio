@@ -1,5 +1,13 @@
-export default function experience(){
+'use client'
+
+import { Container } from "./style"
+
+export default function experience() {
     return (
-        <div></div>
+        <Container>
+            <h1>
+                Experience
+            </h1>
+        </Container>
     )
 }
