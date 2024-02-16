@@ -1,5 +1,14 @@
-export default function page() {
+'use client'
+
+import { AllContainer } from "./style"
+
+import { StyleSheetManager } from 'styled-components';
+
+
+export default function home() {
     return (
-        <div>ashd</div>
+        <AllContainer>
+            Home
+        </AllContainer>
     )
 }
