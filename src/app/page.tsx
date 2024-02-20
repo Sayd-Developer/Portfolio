@@ -1,6 +1,6 @@
 'use client'
 
-import { AllContainer } from "./style"
+import { AllContainer, Titles } from "./style"
 
 import { StyleSheetManager } from 'styled-components';
 
@@ -8,7 +8,14 @@ import { StyleSheetManager } from 'styled-components';
 export default function home() {
     return (
         <AllContainer>
-            Home
+            <Titles>
+                <title>
+                    Home
+                </title>
+                <h1>
+                    Home
+                </h1>
+            </Titles>
         </AllContainer>
     )
 }

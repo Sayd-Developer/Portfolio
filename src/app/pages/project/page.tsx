@@ -1,11 +1,18 @@
 'use client'
 
-import { Container } from "./style"
+import { Container, Titles } from "./style"
 
 export default function project() {
     return (
         <Container >
-            Project
+            <Titles>
+                <title>
+                    Project
+                </title>
+                <h1>
+                    Project
+                </h1>
+            </Titles>
         </Container>
     )
 }
