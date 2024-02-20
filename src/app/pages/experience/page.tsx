@@ -1,13 +1,18 @@
 'use client'
 
-import { Container } from "./style"
+import { Container, Titles } from "./style"
 
 export default function experience() {
     return (
         <Container>
-            <h1>
-                Experience
-            </h1>
+            <Titles>
+                <title>
+                    Experience
+                </title>
+                <h1>
+                    Experience
+                </h1>
+            </Titles>
         </Container>
     )
 }
